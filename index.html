@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleado</title>
+    <link rel="stylesheet" href="css/empleado.css">
+</head>
+<body>
+    <div class="titulosistema">
+        <h1>Registro Empleado</h1>
+    </div>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img class="deslizar" src="img/outline_menu_open_black_24dp.png" ></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">PRECIOS</a></li>
+                <li><a href="#">GALERIA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <form class="formulario" name="formulario "action="" autocomplete="off" >
+            <h1 class="title">Capturar Datos</h1>
+          <!--   En este div va a ir la foto del empleado -->
+            <div id="mostrar"class="elemento1">
+                
+            </div>
+            <div class="observar">
+                <input type="file" name="imagen" id="imagen" accept="image/*"/>
+            </div>
+           <!--  contiene el nombre -->
+            <div class="elemento2">
+                <label class="enombre"for="nombre">Nombre:</label>
+                <input type="text" class="nombre" name="nombre" required>
+            </div>
+            <!-- tenemos los apellidos -->
+            <div class="elemento3">
+                <label for="apellidos" class="eapellidos">Apellidos:</label>
+                <input type="text" class="apellidos" name="apellidos" required>
+            </div>
+            <!-- tenemos el radio button de genero -->
+            <div class="elemento4">
+                <label for="genero" class="egenero">Género</label><br>
+                <input type="radio" class="femenino" name="genero" value="femenino" required>
+                <label for="femenino">Femenino</label><br>
+                <input type="radio" class="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+            </div>
+            <!-- tenemos fecha de nacimiento -->
+            <div class="elemento5">
+                <label for="fechana">Fecha de nacimiento:</label>
+                <input type="date" class="fechana" name="fechanacimiento" required>
+            </div>
+            <!-- fecha de ingreso a la empresa -->
+            <div class="elemento6">
+                <label for="fecaheingreso">Fecha de ingreso a la empresa:</label>
+                <input type="date" class="fechaingreso" name="fechaingreso" required>
+            </div>
+            <!-- salario asignado -->
+            <div class="elemento7">
+                <label for="salario">Salario asignado:</label>
+                <input text="number" class="salario" name="salario" required>
+            </div>
+            <!-- puesto del empleado -->
+            <div class="elemento8">
+                <label for="puesto">Puesto:</label>
+                <input type="text" class="puesto" name="puesto" required>
+            </div>
+            <!-- Curp -->
+            <div class="elemento9">
+                <label for="cupr">CURP:</label>
+                <input type="text" class="curp" name="curp" required>
+            </div>
+            <!-- numeromde control del empleado -->
+            <div class="elemento10">
+                <label for="numerocontrol" >Número de control:</label>
+                <input type="number" class="numerocontrol" name="numerocontrol" required>
+            </div>
+            <!-- horario de entrada -->
+            <div class="elemento11">
+                <label for="horaentrada">Hora de entrada:</label>
+                <input type="time" class="horaentrada" name="horaentrada" required>
+            </div>
+            <!-- horario de salida -->
+            <div class="elemento12">
+                <label for="horasalida">Hora de salida:</label>
+                <input type="time" class="horasalida" name="horasalida" required>
+            </div>
+            <!-- domicilio -->
+            <div class="elemento13">
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" class="domicilio" name="domicilio" required>
+            </div>
+            <!-- numero de telefono -->
+            <div class="elemento14">
+                <label for="telefono">Número telefónico:</label>
+                <input type="number" class="telefono" name="telefono" required>
+            </div>
+            <!-- estado civil -->
+            <div class="elemento15">
+                <label for="estadocivil">Estado civíl:</label>
+                <select name="estadocivil" id="estado" required="true">
+                    <option value="soltero"  class="color" required>Soltero</option>
+                    <option value="casado"  class="color" required>Casado</option>
+                    <option value="divorciado"  class="color" required>Divorsiado</option>
+                    <option value="viudo"  class="color" required>Viudo</option>
+                </select>
+
+            </div>
+            <!-- numero de seguro social -->
+            <div class="elemento16">
+                <label for="numeroseguro">Número del seguro social:</label>
+                <input type="text" class="numeroseguro" name="numerosegurosocial" required>
+            </div>
+            <!-- nivel de estudios -->
+            <div class="elemento17">
+                <label for="estudios">Nivel de estudios:<br></label>
+                <select name="estudios" class="estudios">
+                    <option value="Primero" class="color">Primer</option>
+                    <option value="Segundo " class="color">Segundo</option>
+                    <option value="Tercero" class="color">Tercero</option>
+                    <option value="Cuarto" class="color">Cuarto</option>
+                    <option value="Quinto" class="color">Quinto</option>
+                    <option value="Sexto" class="color">Sexto</option>
+                    <option value="Séptimo" class="color">Séptimo</option>
+                    <option value="Octavo" class="color">Octavo</option>
+                    <option value="Noveno" class="color">Noveno</option>
+                </select>
+                <label for="estudios">semestre de</label>
+                <select name="estudios" class="estudios">
+                    <option value="Primaria" class="color">Primaria</option>
+                    <option value="Secundaria" class="color">Secundaria</option>
+                    <option value="Preparatoria" class="color">Preparatoria</option>
+                    <option value="Universidad" class="color">Universidad</option>
+                </select>
+            </div>
+            <!-- boton enviar -->
+            <div class="elemento18">
+                <input type="submit" class="botonenviar" value="ENVIAR">
+
+            </div>
+        </form>
+    </div>
+    <!-- Mandamos a llamar a jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- mostrar imagen en el div o contenedor -->
+    <script type="text/javascript">
+    (function(){
+        function filePreview(input){
+            if(input.files && input.files[0]){
+                var reader = new FileReader();
+
+                reader.onload = function(e){
+                    $('#mostrar').html("<img  src='"+e.target.result+"'/>");
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $('#imagen').change(function(){
+            filePreview(this);
+        });
+    })();
+
+    </script>
+    
+</body>
+</html>

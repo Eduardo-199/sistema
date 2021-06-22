@@ -1,0 +1,551 @@
+*{
+    box-sizing: border-box;
+}
+/* estilo al body */
+body{
+    background:linear-gradient(rgb(226, 226, 245),rgb(43, 41, 41));
+}
+/* estilo del nav */
+nav{
+    background-color: rgb(23, 24, 23);
+    width: 100%;
+    padding:10px;
+    margin: auto;
+}
+/* estilo del contenedor que envuelve al form */
+.contenedor{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* asignacion de estilo al los inputs y select de los div*/
+
+input,select{
+    color: white;
+}
+/* asignacion de color a las opciones del select */
+.color{
+    background :rgba(0,0,0,0.4);
+    color: black;
+}
+/* estilo del titulo del formulario */
+.title{
+    text-align: center;
+    color: white;
+    background:rgba(0,1,0,0.3)
+}
+/* titulo del sistema Registro empleado */
+.titulosistema{
+    text-align: center;
+    font-size: 20px;
+    background:rgba(236, 8, 8, 0.3);
+    padding: 10px;
+}
+/* Asignacion de estilo a los div */
+.elemento2,.elemento3,.elemento4,.elemento5,.elemento6,
+.elemento7,.elemento8,.elemento9,.elemento10,.elemento11,
+.elemento12,.elemento13,.elemento14,.elemento15,.elemento16
+,.elemento17,.elemento18{
+    color:white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* personalizacion del contenedor 1 donde irá la imagen del usuario o empleado */
+.elemento1{
+    width: 200px;
+    height: 200px;
+    border:1px solid white;
+    padding:5px;
+    margin: 10px;
+    background:rgb(8, 1, 1);
+}
+/* estilo de la imagen, pero se quitara cuando el empleado suba su foto */
+img{
+    width: 187px;
+    height: 190px;
+}
+.observar{
+    max-width:15%;
+    position:relative;
+    top: 30px;
+}
+/* personalizacion del div, posicion relative y su ancho maximo */
+.elemento2{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+    max-width: 30%;
+}
+/* personalizacion del input del div 1 */
+.elemento2 input{
+    width:80%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+
+.elemento3{
+    position: relative;
+    left: 250px;
+    bottom: 180px;
+    max-width: 30%;
+}
+.elemento3 input{
+    width:74%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento4{
+    position: relative;
+    left: 250px;
+    bottom: 160px;
+    max-width: 30%;
+}
+.elemento5{
+    position: relative;
+    left: 250px;
+    bottom: 130px;
+    max-width: 30%;
+}
+.elemento5 input{
+    width:54%;
+    background:transparent;
+}
+.elemento6{
+    position: relative;
+    left: 900px;
+    bottom:320px;
+    max-width: 30%;
+}
+.elemento6 input{
+    width:32%;
+    background: transparent;
+}
+.elemento7{
+    position: relative;
+    left: 900px;
+    bottom:310px;
+    max-width: 30%;
+}
+.elemento7 input{
+    width:60%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento8{
+    position: relative;
+    left: 900px;
+    bottom:290px;
+    max-width: 30%;
+}
+.elemento8 input{
+    width:80%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento9{
+    position: relative;
+    left: 900px;
+    bottom:270px;
+    max-width: 30%;
+}
+.elemento9 input{
+    width:84%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento10{
+    position: relative;
+    left: 900px;
+    bottom:250px;
+    max-width: 30%;
+}.elemento10 input{
+    width:58%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento11{
+    position: relative;
+    left: 250px;
+    bottom:190px;
+    max-width: 30%;
+}.elemento11 input{
+    width:62%;
+    background: transparent;
+}
+.elemento12{
+    position: relative;
+    left: 250px;
+    bottom:170px;
+    max-width: 30%;
+}.elemento12 input{
+    width:64%;
+    background:transparent;
+}
+.elemento13{
+    position: relative;
+    left: 250px;
+    bottom:150px;
+    max-width: 30%;
+}.elemento13 input{
+    width:73%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento14{
+    position: relative;
+    left: 250px;
+    bottom:130px;
+    max-width: 30%;
+}.elemento14 input{
+    width:57%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento15{
+    position: relative;
+    left: 900px;
+    bottom:288px;
+    max-width: 30%;
+}.elemento15 select{
+    width:70%;
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+.elemento16{
+    position: relative;
+    left: 900px;
+    bottom:268px;
+    max-width: 30%;
+}.elemento16 input{
+    width:44%;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid white;
+}
+.elemento17{
+    position: relative;
+    left: 900px;
+    bottom:248px;
+    max-width: 30%;
+}.elemento17 select{
+    width:35%;
+    background:transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+.elemento18{
+    position: relative;
+    left: 690px;
+    bottom:100px;
+    max-width: 30%;
+}
+/* Termina la personalizacion de las posiciones de los div con relative */
+/* Boton de enviar estilos */
+.botonenviar{
+    width:50%;
+    height: 40px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    background:rgb(228, 224, 224);
+    font-size: 20px;
+    cursor: pointer;
+}
+/* evento de hover a pasar el cursor */
+.botonenviar:hover{
+    color:white;
+    background:black;
+}
+/* para el nav */
+header{
+    width: 100%;
+    background: #101010;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 36px;
+    height: 36px;
+    padding: 1px;
+    border-right: 1px solid #fff ;
+}
+header label :hover{
+    cursor: pointer;
+    background: rgba(247, 241, 241, 0.3);
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.menu li :hover{
+    background: rgba(236, 8, 8, 0.3);
+    color:white;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color:rgb(248, 242, 242);
+    text-decoration: none;
+}
+/* hacer responsive el nav */
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+    
+    .menu{
+        position: absolute;
+        background: rgb(97, 96, 93);
+        width: 40%;
+        margin-left: -70%;
+        transition: all 0.8s;
+    }
+    .menu ul{
+        flex-direction: column;
+        width: 200px;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+        width: 200px;
+    }
+    #btn-menu:checked ~ .menu{
+        margin:0;
+
+    }
+    .deslizar{
+        background:white;
+        width: 36px;
+    }
+}
+/* hacer responsive para el celular contenedores*/
+@media (max-width:768px){
+    .contenedor{
+        width: 100%;
+        height:1600px;
+    }
+    .usuario{
+        position: relative;
+        padding:0;
+        width: 138px;
+        height: 140px;
+    }
+    .elemento1{
+        width: 150px;
+        height: 150px;
+        border:1px solid white;
+        padding:5px;
+        margin: auto;
+        background:rgb(8, 1, 1);
+    }
+    img{
+        width: 137px;
+        height: 137px;
+    }
+    .observar{
+        position: relative;
+        position: relative;
+        left: 50px;
+        top:20px;
+        max-width: 80%;
+    }
+    .observar input{
+        position: relative;
+        left:40px;
+    }
+    .elemento2{
+        position: relative;
+        left: 50px;
+        top:60px;
+        max-width: 80%;
+    }
+    .elemento2 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    
+    .elemento3{
+        position: relative;
+        left: 50px;
+        top:80px;
+        max-width: 80%;
+    }
+    .elemento3 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento4{
+        position: relative;
+        left: 50px;
+        top:100px;
+        max-width: 80%;
+    }
+    .elemento5{
+        position: relative;
+        left: 50px;
+        top:120px;
+        max-width: 80%;
+    }
+    .elemento5 input{
+        width:90%;
+        background:transparent;
+    }
+    .elemento6{
+        position: relative;
+        left: 50px;
+        top:140px;
+        max-width: 80%;
+    }
+    .elemento6 input{
+        width:90%;
+        background: transparent;
+    }
+    .elemento7{
+        position: relative;
+        left: 50px;
+        top:160px;
+        max-width: 80%;
+    }
+    .elemento7 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento8{
+        position: relative;
+        left: 50px;
+        top:180px;
+        max-width: 80%;
+    }
+    .elemento8 input{
+        width: 90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento9{
+        position: relative;
+        left: 50px;
+        top:200px;
+        max-width: 80%;
+    }
+    .elemento9 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento10{
+        position: relative;
+        left: 50px;
+        top:220px;
+        max-width: 80%;
+    }
+    .elemento10 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento11{
+        position: relative;
+        left: 50px;
+        top:240px;
+        max-width: 80%;
+    }.elemento11 input{
+        width:90%;
+        background: transparent;
+    }
+    .elemento12{
+        position: relative;
+        left: 50px;
+        top:260px;
+        max-width: 80%;
+    }.elemento12 input{
+        width:90%;
+        background:transparent;
+    }
+    .elemento13{
+        position: relative;
+        left: 50px;
+        top:280px;
+        max-width: 80%;
+    }.elemento13 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento14{
+        position: relative;
+        left: 50px;
+        top:300px;
+        max-width: 80%;
+    }.elemento14 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento15{
+        position: relative;
+        left: 50px;
+        top:320px;
+        max-width: 80%;
+    }.elemento15 select{
+        width:90%;
+        background: transparent;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .elemento16{
+        position: relative;
+        left: 50px;
+        top:340px;
+        max-width: 80%;
+    }.elemento16 input{
+        width:90%;
+        background:transparent;
+        border:none;
+        border-bottom:1px solid white;
+    }
+    .elemento17{
+        position: relative;
+        left: 50px;
+        top:360px;
+        max-width: 80%;
+    }.elemento17 select{
+        width:90%;
+        background:transparent;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .elemento18{
+        position: relative;
+        left: 50px;
+        top:380px;
+        max-width: 80%;
+        padding:10px;
+    }
+    .botonenviar{
+        width:90%;
+    }
+    div{
+        padding: 5px;
+    }
+}
